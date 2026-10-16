@@ -134,6 +134,7 @@ def create_examination():
 	if request.method == "POST":
 		data = request.get_json()
 		
+		
 
 		if not data:
 			return jsonify({"error":"data not nor given"}),404

@@ -200,6 +200,22 @@ def create_examination():
 		
 ###--------------Admin features ----------###
 
+### add examiner 
+@app.route("/api/add_examiner",methods=["GET","POST"])
+def add_examiner():
+	
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
